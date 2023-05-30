@@ -1,0 +1,318 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+p3,
+p {
+    padding: 0;
+    margin: 0;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#logo-alibaba{
+    height: 60px;
+    width: 148px;
+    margin-left: 40px;
+}
+
+#header-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #373B3E;
+    margin-top: 0;
+    height: 68px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#flex-container-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#int{
+    display: flex;
+}
+
+#login{
+    display: flex;
+    margin-right: 40px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+#header-banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("asset/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 144px;
+    align-items: center;
+}
+
+#free-acc{
+    display: flex;
+}
+
+#flex-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+    border-top: 3px solid #ff6a00;
+    max-width: 600px;
+}
+
+#Create{
+    display: flex;
+    justify-content: center;
+
+}
+
+#flex-container2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 31.2%;
+    gap: 12px;
+}
+
+#country-selection{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#Country-selector{
+    display: flex;
+    height: 32px;
+}
+
+#Email-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#Password-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#password-confirm{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#Button-confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type = text], input[type = password]{
+    width: 100%;
+    padding: 12px;
+    height: 32px;
+}
+
+#Button-confirm button{
+    width: 600px;
+    height: 36px;
+    padding: 0 32px;
+    background-color: #ff6a00;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#terms-form{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+#already{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+}
+
+#Footer{
+    height: 80px;
+    background-color: #373B3E;
+    color: white;
+}
+
+#email-remind{
+    color: #ff6a00;
+    font-size: 12px;
+    display: none;
+}
+
+#password-remind{
+    color: #ff6a00;
+    font-size: 12px;
+    display: none;
+}
+
+#confirm-remind{
+    color: #ff6a00;
+    font-size: 12px;
+    display: none;
+}
+
+#country-remind{
+    color: #f4b83f;
+    font-size: 12px;
+}
+
+#hereby{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#alreadya{
+    font-size: 12px;
+}
+
+#signin{
+    color: #ff6a00;
+    font-size: 12px;
+}
+
+p2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p3{
+    font-size: 12px;
+    color: #808080;
+}
+
+p4{
+    font-size: 12px;
+    color: lightgray;
+}
+
+#Free-trial{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#Premium-support{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#How-do{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#Footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#Flex-container3{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 24px;
+    background-color: #373B3E;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#footer-1{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+p21{
+    font-size: 12;
+}
+
+#checkbox{
+    accent-color: rgb(233, 103, 50);
+}
+
+#flex-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h4{
+    margin: 0;
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 400;
+    color: #020527;
+}
+
+#freeacc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #020527;
+}
